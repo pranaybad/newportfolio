@@ -54,7 +54,7 @@ const Navbar = () => {
 
             {showMenu ? (
               <>
-                <div className=" md:hidden block absolute bg-black w-full">
+                <div className=" md:hidden block absolute bg-black w-3/4 border-2 rounded-md py-10 px-12">
                   <ul className="flex flex-col  justify-center gap-16 cursor-pointer text-2xl">
                     <li>
                       <a href="#Home">Home</a>
