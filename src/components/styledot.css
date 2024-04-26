@@ -1,0 +1,30 @@
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+}
+
+.col_dot {
+    height: 25px;
+    width: 25px;
+    background-color: #d82828;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+}
+
+.empty_dot::before {
+    content: "";
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #ccc;
+    padding: 10px;
+    margin: 20px;
+}
