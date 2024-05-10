@@ -16,17 +16,17 @@ const Navbar = () => {
             <p className="text-3xl font-extrabold">Pranay Badgujar</p>
             <div className="w-1/2 md:block hidden">
               <ul className="flex  justify-center gap-16 cursor-pointer text-2xl">
-                <li>
-                  <a href="#Home">Home</a>
+                <li >
+                  <a href="#Home" className="hover:text-red-500">Home</a>
                 </li>
                 <li>
-                  <a href="#Projects">Projects</a>
+                  <a href="#Projects" className="hover:text-red-500">Projects</a>
                 </li>
                 <li>
-                  <a href="#Myskills">Myskills</a>
+                  <a href="#Myskills" className="hover:text-red-500">Myskills</a>
                 </li>
                 <li>
-                  <a href="#Contact">Contact</a>
+                  <a href="#Contact" className="hover:text-red-500">Contact</a>
                 </li>
               </ul>
             </div>
@@ -56,8 +56,8 @@ const Navbar = () => {
               <>
                 <div className=" md:hidden block absolute bg-black w-3/4 border-2 rounded-md py-10 px-12">
                   <ul className="flex flex-col  justify-center gap-16 cursor-pointer text-2xl">
-                    <li>
-                      <a href="#Home">Home</a>
+                    <li >
+                      <a href="#Home" >Home</a>
                     </li>
                     <li>
                       <a href="#Projects">Projects</a>

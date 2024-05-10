@@ -1,12 +1,17 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 
 const Heropage = () => {
   return (
     <>
       <div>
-     <p className="text-6xl text-white font-semibold container mx-auto my-32 text-center leading-tight md:block hidden">   
-    
-     "Discover <span className="text-[#d82828] font-extrabold ">Pranay Badgujar</span> digital realm: passion, pixels, creativity. Explore, engage, innovate."
+        <p className="text-6xl text-white font-semibold container mx-auto my-32 text-center leading-tight md:block hidden">
+          "Discover{" "}
+          <span className="text-[#d82828] font-extrabold ">
+            Pranay Badgujar
+          </span>{" "}
+          digital realm: passion, pixels, creativity. Explore, engage,
+          innovate."
         </p>
       </div>
       <div className="lg:mx-14 md:mx-4">
@@ -19,16 +24,29 @@ const Heropage = () => {
                   web developer
                 </p>
                 <p className="uppercase text-3xl md:text-6xl leading-tight text-center md:text-left font-bold">
-                  <span className="text-[#d82828]">Pranay badgujar </span>
+                  <span className="text-[#d82828]">
+                    <Typewriter
+                      options={{
+                        strings: [
+                          "Pranay badgujar",
+                          "I'm a full-stack",
+                          "web developer",
+                        ],
+                        autoStart: true,
+                        loop: true,
+                      }}
+                    />
+                  
+                  </span>
                 </p>
-                <div className="mt-4 md:border-l-2 border-[#d82828] md:pl-10  md:w-1/2">
+                {/* <div className="mt-4 md:border-l-2 border-[#d82828] md:pl-10  md:w-1/2">
                   <p className=" md:text-4xl text-2xl leading-tight text-center md:text-left capitalize">
                     I'm a full-stack <br />{" "}
                     <span className="underline-offset-8 text-[#d82828] ">
                       web developer
                     </span>
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
